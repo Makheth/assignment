@@ -1,0 +1,175 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    background: rgb(0,132,245);
+    background: linear-gradient(90deg, rgba(0,132,245,1) 29%, rgba(0,212,255,1) 100%);
+    margin: 0px;
+    
+
+}
+nav h1{
+    font-size: xx-large;
+    padding-left: 5rem;
+   
+}
+nav{
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+    margin: 0%;
+    padding: 0%;
+}
+nav ul{
+    
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+nav li{
+   
+    flex-direction: column;
+    display: inline-block;
+    text-decoration: none;
+    color: antiquewhite;
+    
+
+}
+nav a {
+    text-decoration: none;
+    padding: 1.2rem;
+    display: inline-block;
+    color: antiquewhite;
+    
+}
+.bord{
+    border: 2px blue;
+}
+nav a:hover{
+    background-color: #444;
+    color: whitesmoke;
+    border-top-right-radius:2px solid #444;
+    border-radius: 20px;
+    padding: 7px;
+}
+.first{
+    font-size: larger;
+    font-weight: x-small;
+}
+.strong{
+
+    font-weight: bolder;
+}
+.second{
+    font-size:medium ;
+}
+article{
+    display:flex;
+}
+section{
+    padding:5rem;
+    padding-top: 7rem;
+}
+img{
+    max-width:40rem ;
+    padding-top: 0;
+}
+button {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: small;
+    border: 0;
+}
+.two{
+    
+    padding: 10px;
+}
+.two img
+{
+width: 30px;
+padding-left: 11rem;
+}
+
+.dom
+{
+background-color: aliceblue;
+}
+.inside
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+h2{
+    text-align: center;
+}
+.two p{
+    text-align: justify;
+}
+h3
+{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+.para{
+    font-size: 60px;
+}
+.portfolio img{
+    
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    height: 350px;
+    width: 350px;
+
+}
+.text img{
+    width: 100px;
+    border-radius: 100%;
+}
+.dot{
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+}
+div ul
+{
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+div li
+{
+    
+    flex-direction: column;
+    display: inline-block;
+    text-decoration: none;
+}
+div a
+{
+    text-decoration: none;
+    padding: 1.2rem;
+    display: inline-block;
+    color: black;
+}
+div a:hover{
+    background-color: #444;
+    color:azure;
+    border-top-right-radius:2px solid #444;
+    border-radius: 20px;
+}
+p img
+{
+width: 30px;
+height: 30px;
+display: inline-flex;
+flex-direction: column;
+padding-left: 6rem;
+padding-right: 6rem;
+
+}
